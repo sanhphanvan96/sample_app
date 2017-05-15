@@ -8,6 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.0'
+# Sanhphanvan add gem bootstrap-sass
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -41,6 +42,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  # Sanhphanvan add gem minitest-reporters, rails-controller-testing
   gem 'minitest-reporters'
   gem 'rails-controller-testing'
 end
